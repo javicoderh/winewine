@@ -1,0 +1,44 @@
+.list {
+ margin-top: 15px;
+ border: solid lightgreen 1px;
+ border-radius: 5%;
+
+}
+
+.todoItem {
+ display: flex;
+ gap: 15px;
+ align-items: center;
+ color: rgb(148, 203, 169);
+ margin-left: 10px;
+ margin-right: 10px;
+ font-size:  1rem;
+}
+
+button {
+ background-color: rgb(69, 214, 69);
+ height: 25px;
+}
+
+button:hover {
+ transform: scale(1.015);
+ background-color: lightgreen;
+ 
+}
+
+.delete {
+ height: 25px;
+ background-color:  rgb(108, 0, 0);
+ border: groove 2px rgb(132, 5, 5)
+}
+
+.delete:hover {
+ background-color: rgb(255, 1, 1);
+ font-weight: 700;
+ transform: scale(1.015);
+}
+
+h3 {
+ font-size: 1.2rem;
+ color: rgb(34, 233, 34)
+}
